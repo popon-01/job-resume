@@ -1,4 +1,8 @@
 {
     "stylesheet": "./pdf-config/style.css",
-    "stylesheet_encoding": "utf-8"
+    "stylesheet_encoding": "utf-8",
+    "pdf_options": {
+        "format": "A4",
+        "margin": "30mm 20mm"
+    }
 }
