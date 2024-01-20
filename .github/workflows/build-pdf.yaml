@@ -1,0 +1,24 @@
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: install md-to-pdf
+        run: npm i -g md-to-pdf
+
+      - name: generate pdf
+        run: md-to-pdf ./job-resume.md
+
+      - uses: shogo82148/actions-upload-release-asset@v1
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: job-resume.pdf
