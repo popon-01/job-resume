@@ -13,7 +13,8 @@
 - Go
     - 業務で発生する実装などにメインで使用しています。
 - Python
-    - 大学のサークル活動・授業などで利用していた他、業務でもちょっとした計算処理をするのに書いたりします。
+    - 大学のサークル活動・授業などで利用していました。
+    - 業務でもちょっとした計算処理などに用いています。
 - Java
     - 大学の授業や開発演習などで使用経験があります。
 - C/C++
@@ -32,7 +33,13 @@
 ### クラウドサービス
 
 - GCP
-  - GKE,Cloud Run,PubSub,Cloud Logging,Cloud Memorystore for Redis,Cloud SQL etc.
+  - GKE
+  - Cloud Run
+  - Cloud Memorystore for Redis
+  - Cloud SQL
+  - BigQuery
+  - PubSub
+  - Cloud Logging
 
 ### CI
 
