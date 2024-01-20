@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200..900');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200..900&display=swap');
 
 body {
-  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;;
 }

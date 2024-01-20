@@ -19,7 +19,7 @@ jobs:
         run: npm i -g md-to-pdf
 
       - name: generate pdf
-        run: md-to-pdf ./job-resume.md --config-file ./pdf-config/config.json
+        run: md-to-pdf --config-file ./pdf-config/config.json ./job-resume.md
 
       - uses: actions/upload-artifact@v4
         with:
