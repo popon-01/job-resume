@@ -4,5 +4,8 @@
     "pdf_options": {
         "format": "A4",
         "margin": "30mm 20mm"
+    },
+    "launch_options": {
+        "args": ["--no-sandbox"]
     }
 }
